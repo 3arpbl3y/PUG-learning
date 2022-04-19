@@ -1,3 +1,5 @@
+include ../blocks/blocks
+include ../blocks/libs/_libs
 doctype html
 html(lang="en")
 	head
@@ -7,6 +9,7 @@ html(lang="en")
 		include _head
 		include _scripts
 		title learning PUG and BS
-	body 
-		h1 hello PUG!
+	body
+		block content
+			h2 hello PUG!
 		
